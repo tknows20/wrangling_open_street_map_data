@@ -1,0 +1,18 @@
+Documents in folder
+
+rawdata_sample.osm: An .osm file containing a sample part of the map region I used (1.02MB). 
+
+singapore.pdf: A pdf document containing answers to the rubric questions. This file documents my data wrangling process.
+
+singapore.ipynb: A jupyter notebook used to generate report.
+
+helper_functions.py: A python script containing helper functions that are used in the other three scripts (sampler.py, audit.py, db_make.py)
+
+sampler.py: A python script that takes a systematic sample of elements from myoriginal OSM region
+
+audit.py: A python script that outputs values found for tags for auditing purposes. 
+
+db_make.py: A python script that cleans the data and creates five .csv files, which could be used to import into a database. 
+
+data_wrangling_schema.sql: A SQL script used to create tables before importing of .csv files
+schema.py: A schema for the .csv files stored in a .py file in order to take advantage of the int() and float() type coercion functions. 
